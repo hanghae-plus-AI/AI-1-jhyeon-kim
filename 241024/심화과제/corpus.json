@@ -1,0 +1,306 @@
+[
+  {
+    "instruction": "Why is it important to speak kindly?",
+    "output": "When you speak kindly, it makes the listener feel comfortable and creates an environment where different opinions can be freely shared. This contributes to organizational resilience and helps the team become flexible and open to feedback."
+  },
+  {
+    "instruction": "Why is organizational resilience important?",
+    "output": "Organizational resilience is important because it fosters an environment where people are not afraid of failure and can freely share various opinions. This environment is built on a sense of safety and trust, ultimately contributing to the organization's growth and innovation."
+  },
+  {
+    "instruction": "Why is small talk important?",
+    "output": "Small talk helps to share the 'context' of work and get to know the people you work with as individuals. It facilitates smoother collaboration and strengthens trust and bonding within the team."
+  },
+  {
+    "instruction": "How can we encourage small talk in an online environment?",
+    "output": "Using techniques like the Pomodoro method can naturally activate small talk online. As people accumulate positive experiences in text communication, working through text becomes more natural as well."
+  },
+  {
+    "instruction": "Why should DMs be discouraged within teams?",
+    "output": "The reason for discouraging work-related communication via DMs is to share and understand the context together. Public communication helps the whole team grasp the situation and facilitates smoother collaboration."
+  },
+  {
+    "instruction": "Why do teams use '~nim' instead of titles?",
+    "output": "The reason for using a single title like '~nim' is to encourage horizontal communication and create an environment where all team members are respected, regardless of their position."
+  },
+  {
+    "instruction": "What is constructive conflict?",
+    "output": "Constructive conflict refers to solving problems and making better decisions through productive discussions and exchanging diverse opinions. To foster this, a 100% office work system is operated to encourage direct communication between team members."
+  },
+  {
+    "instruction": "How many study groups and small groups can one participate in?",
+    "output": "There is no limit to the number of study groups one can join in a chapter, but you can participate in up to two small groups."
+  },
+  {
+    "instruction": "What are the conditions for setting up a study group or small group?",
+    "output": "A study group must be related to work, and at least three people must participate. A small group requires participation from at least three teams and a total of six people to be established."
+  },
+  {
+    "instruction": "What is the support provided for study groups and small groups?",
+    "output": "If a study group operates during lunchtime, a meal allowance of 20,000 won per person is provided. For small groups, up to 30,000 won per person per month is supported, depending on the number of members."
+  },
+  {
+    "instruction": "When is mid-term participation allowed?",
+    "output": "Mid-term participation is only allowed for new hires. Generally, mid-term participation is not allowed, and you have to wait for the next application round."
+  },
+  {
+    "instruction": "What needs to be done after a study group or small group activity?",
+    "output": "After every activity, you must share the activity details in the `#our_team_study_small_group` channel."
+  },
+  {
+    "instruction": "What are the principles to follow when using the company credit card?",
+    "output": "The leader and sub-leader must use the company credit card, and if there are any absentees, they must bear the cost."
+  },
+  {
+    "instruction": "How should the small group support funds be used?",
+    "output": "Small group support funds must be used within the same month and cannot be carried over."
+  },
+  {
+    "instruction": "How should activities be managed to avoid affecting work?",
+    "output": "Care must be taken not to prioritize activities over work. Use vacations or avoid excessive preparation during work hours."
+  },
+  {
+    "instruction": "What is the submission format for GoWith expense processing?",
+    "output": "When submitting GoWith expense details, you need to choose the purpose and write the detailed content with the meeting name. For example, meals should be labeled as 'Meal)Study' or 'Meal)Small Group,' and space rentals should be labeled as 'Other Fee Payment)Small Group.'"
+  },
+  {
+    "instruction": "If you were supposed to come to work at 8:00 but arrived at 8:30, when should you leave?",
+    "output": "If you arrive at 8:30, you should leave at 6:00. Leaving at 5:30 is not possible."
+  },
+  {
+    "instruction": "When using vacation time for personal reasons during working hours, what time should be used?",
+    "output": "If you have personal reasons and need to take a vacation, you should use vacation time between 5:00 and 6:00, not between 8:00 and 9:00."
+  },
+  {
+    "instruction": "When is the core time?",
+    "output": "Core time is from 10:00 to 17:00. Outside of this time, Slack mentions are allowed anytime."
+  },
+  {
+    "instruction": "Which channel should vacation, tardiness, and absence be shared in?",
+    "output": "Vacation, tardiness, and absence details should be shared in the `#our_team_vacation_tardiness_absence` channel."
+  },
+  {
+    "instruction": "What should be done first when you arrive at the office?",
+    "output": "If you are the first to arrive, turn on the office lights with the 'Office_All_Lights' button, adjust the air conditioner/heater for comfort, and set up the BGM."
+  },
+  {
+    "instruction": "What should you do when leaving the office last?",
+    "output": "When leaving the office last, turn off the lights with the 'Office_All_Lights' button, turn off the air conditioner/heater, close the cargo/basement stairs doors, turn off the BGM, and press the 'Security' button before scanning your access card."
+  },
+  {
+    "instruction": "When is lunch and dinner time?",
+    "output": "Lunch is from 12:30 to 14:00 for 1 hour and 30 minutes, and dinner starts at 7:00."
+  },
+  {
+    "instruction": "When can you start lunch 5-10 minutes early?",
+    "output": "To avoid elevator congestion or when meetings or group meals are scheduled at the exact time, lunch can start 5-10 minutes earlier."
+  },
+  {
+    "instruction": "When does JookShop open?",
+    "output": "JookShop opens bi-weekly on Mondays from 14:00 to 15:00, where key issues are shared, and new hires are introduced."
+  },
+  {
+    "instruction": "When does Soosta happen?",
+    "output": "Soosta happens bi-weekly on Fridays, once during lunch from 12:00 to 12:30, and once at 6:00 p.m. for the chapter."
+  },
+  {
+    "instruction": "What kind of questions can be asked at Soosta?",
+    "output": "At Soosta, you can ask any question, ranging from the company's vision to whether a bidet can be installed in the restroom."
+  },
+  {
+    "instruction": "When does SoomCheong happen?",
+    "output": "SoomCheong happens on Fridays when Soosta is not scheduled, and it runs bi-weekly from 12:15. During this time, teams clean common areas and tidy up their own desks."
+  },
+  {
+    "instruction": "What is SamSamOhOh?",
+    "output": "SamSamOhOh is a time when different teams are randomly grouped every week to have lunch, dinner, or tea time together to facilitate team bonding."
+  },
+  {
+    "instruction": "What is the individual education support limit?",
+    "output": "For enhancing work-related skills, each individual is supported with up to 300,000 won per year for educational expenses."
+  },
+  {
+    "instruction": "Do monthly or annual subscription services qualify for education support?",
+    "output": "Monthly or annual subscription services do not qualify for education support. Unlimited content or lecture-providing platforms, such as LongBlack, Publy, and CodeIt memberships, are not supported."
+  },
+  {
+    "instruction": "Does conference participation count toward education support?",
+    "output": "Conference participation is handled separately from education support, and you must consult with your team leader and the People Team in advance."
+  },
+  {
+    "instruction": "What is the procedure for getting reimbursed for educational expenses?",
+    "output": "1. Purchase the desired course with personal funds/personal account. 2. Complete the course and obtain a certificate. 3. Apply for reimbursement within three months of completion. Reimbursement will be deposited into your account on the first Wednesday of the following month."
+  },
+  {
+    "instruction": "By when should you apply for reimbursement after completing a course?",
+    "output": "You must apply for reimbursement within three months of completing the course, and submissions beyond that time may not be eligible for reimbursement."
+  },
+  {
+    "instruction": "What courses qualify for educational reimbursement?",
+    "output": "Only courses related to work are eligible for reimbursement. If unsure, it is best to consult with the People Team before making a purchase."
+  },
+  {
+    "instruction": "What accounts are available for learning without spending educational funds?",
+    "output": "Accounts available for learning without spending educational funds include Inflearn (until 2024-12-31), Class U (until 2024-11-27), Class101+ (until 2024-12-11), FastCampus for Business (until 2025-01-24), and FastCampus (until 2024-12-31)."
+  },
+  {
+    "instruction": "What is the purpose of Buddy Meals?",
+    "output": "The purpose of Buddy Meals is to build rapport between new hires and colleagues, fostering relationships where they can greet each other in passing."
+  },
+  {
+    "instruction": "How many times does a buddy organize meals?",
+    "output": "A buddy organizes meals three times in total. In the first week, teams are formed with people who frequently collaborate, and they have two meals together."
+  },
+  {
+    "instruction": "How are participants for buddy meals selected?",
+    "output": "The buddy forms groups of four with people who frequently collaborate with the new hire. The buddy schedules two lunch meetings in the first week and sends a calendar invitation."
+  },
+  {
+    "instruction": "What should be considered when leading a buddy meal?",
+    "output": "The buddy should guide the conversation so the new hire can take center stage, and instruct the invited guests to read the new hire's member card in advance."
+  },
+  {
+    "instruction": "How should the schedule for meals with the team leader be arranged?",
+    "output": "The buddy should coordinate and arrange the meal schedule between the team leader and the new hire."
+  },
+  {
+    "instruction": "What needs to be done after buddy meals?",
+    "output": "After two buddy meals, introduce the new hire with an introductory post that includes a photo and five TMI (Too Much Information) facts."
+  },
+  {
+    "instruction": "How many meals does the People Team host?",
+    "output": "The People Team hosts three meals in total, during which they engage with people related to the new hire's interests and discuss the onboarding process."
+  },
+  {
+    "instruction": "When should the welcome poster be prepared and where should it be posted?",
+    "output": "The welcome poster should be prepared the day before the hire date and posted in front of the 12th-floor elevator, even if the hire's desk is on the 13th floor."
+  },
+  {
+    "instruction": "What tape should be used to post the welcome poster?",
+    "output": "Use masking tape from the OA zone instead of regular tape to prevent damage to the walls."
+  },
+  {
+    "instruction": "When is Buddy Chat held?",
+    "output": "Buddy Chat is held in the second week, with an invitation sent by the People Team. It is a 30-minute tea time for conversation."
+  },
+  {
+    "instruction": "What kind of conversations are good for Buddy Chat?",
+    "output": "During Buddy Chat, focus on answering the new hire's questions, discussing expectations versus the reality of TeamSparta, and talking about any difficulties in adjusting."
+  },
+  {
+    "instruction": "What role does the buddy play during company events?",
+    "output": "The buddy accompanies the new hire during company events to ensure they don’t feel awkward and explains the cultural significance of the event."
+  },
+  {
+    "instruction": "What is the cultural significance of JookShop?",
+    "output": "JookShop is a time to 'sit at the front of the business,' where key business issues are shared, and the company's direction is understood."
+  },
+  {
+    "instruction": "What is the cultural significance of Soosta?",
+    "output": "Soosta is a time to 'sit at the front of the culture,' where anyone can freely ask questions to the CEO about the company's direction or work-related challenges."
+  },
+  {
+    "instruction": "What is the cultural significance of SoomCheong?",
+    "output": "SoomCheong is a time to create a focused work environment by tidying up personal desks and cleaning common areas as a team, maintaining a pleasant workspace."
+  },
+  {
+    "instruction": "What is the One Goal system?",
+    "output": "The One Goal system is a system where each chapter sets one key goal to focus on and achieve."
+  },
+  {
+    "instruction": "When is One Goal set?",
+    "output": "One Goal is set on D-3 of the chapter start."
+  },
+  {
+    "instruction": "How long does a chapter last?",
+    "output": "A chapter lasts for two months."
+  },
+  {
+    "instruction": "How often is the One Goal status updated?",
+    "output": "The One Goal status is updated weekly."
+  },
+  {
+    "instruction": "When is the final review of One Goal conducted before the end of the chapter?",
+    "output": "The final review (retrospective) of One Goal is conducted in a team meeting on D-7 before the end of the chapter."
+  },
+  {
+    "instruction": "What should be done on the last day of the chapter?",
+    "output": "On the last day of the chapter, update the achievement status and the final progress of the One Goal."
+  },
+  {
+    "instruction": "What is Seunta (Sparta Gift Time)?",
+    "output": "Seunta is a time to share the gifts that team members have received, celebrating them as part of the team's success."
+  },
+  {
+    "instruction": "Where should Seunta be shared?",
+    "output": "Seunta should be shared in the `#our_team_small_talk` Slack channel."
+  },
+  {
+    "instruction": "What information should be included when sharing Seunta?",
+    "output": "Include a brief description of the task that led to the gift and attach a photo when sharing Seunta."
+  },
+  {
+    "instruction": "How are Seunta emojis used?",
+    "output": "Announce a deadline for pressing the Seunta emoji, and after the deadline, draw lots among those who pressed the emoji to distribute gifts."
+  },
+  {
+    "instruction": "How is the Seunta draw method decided?",
+    "output": "The draw method is decided autonomously but must be conducted fairly."
+  },
+  {
+    "instruction": "What should be done after the Seunta draw?",
+    "output": "After the draw, give the gifts to the winners to complete the Seunta process."
+  },
+  {
+    "instruction": "What are the leadership principles of Sparta?",
+    "output": "The leadership principles of Sparta are 'Fast, Wow, and Authentic,' and these guide team and individual retrospectives every week, serving as a compass for work."
+  },
+  {
+    "instruction": "What does 'working fast' mean at Sparta?",
+    "output": "'Working fast' means focusing only on what is necessary, finding ways to validate ideas quickly, and acting on them swiftly."
+  },
+  {
+    "instruction": "What does 'working wow' mean?",
+    "output": "'Working wow' means delivering unexpected moments of delight by creating experiences that amaze customers when they least expect it."
+  },
+  {
+    "instruction": "What does 'working authentically' mean?",
+    "output": "'Working authentically' means thinking more about the customer than the customer themselves and responding proactively before they even express a need. If a product cannot be recommended to family, we stop marketing and improve it."
+  },
+  {
+    "instruction": "How are the leadership principles of Sparta practiced?",
+    "output": "The leadership principles of Sparta are practiced by adding each team's unique definitions and applying them in weekly retrospectives, turning them into more than just slogans but actual work practices."
+  },
+  {
+    "instruction": "Who does Sparta welcome?",
+    "output": "Sparta welcomes people who are passionate about good culture and who go beyond accepting culture to actively creating it together."
+  },
+  {
+    "instruction": "What should you do if a guest is hovering near the entrance?",
+    "output": "Ask the guest if they have been in communication with someone from the company, and if so, guide them to the lounge or a waiting area."
+  },
+  {
+    "instruction": "What should be the first question asked to an external guest?",
+    "output": "'Hello, what brings you here? Have you been in contact with someone beforehand?' should be asked."
+  },
+  {
+    "instruction": "What should you do if a guest arrives without an appointment?",
+    "output": "If a guest arrives without an appointment, ask specifically why they are here and, if necessary, connect them with the relevant person."
+  },
+  {
+    "instruction": "What determines the success of the company?",
+    "output": "The company's success is determined by the attitudes and habits of its members, which are rooted in the organization's long-established principles and culture."
+  },
+  {
+    "instruction": "What is a codebook?",
+    "output": "A codebook refers to a glossary of terms and guidelines to be familiar with before starting software development, and it is written to align culture and mindset."
+  },
+  {
+    "instruction": "What is the first goal of all members?",
+    "output": "The first goal of all members is the success of the company. Working at a successful company is the best credential and benefit."
+  },
+  {
+    "instruction": "Why is it okay to help with someone else's work at the company?",
+    "output": "Since all members are working toward the common goal of the company's success, it is okay to help with someone else's work."
+  }
+]

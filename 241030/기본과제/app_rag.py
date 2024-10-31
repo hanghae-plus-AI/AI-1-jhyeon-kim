@@ -6,10 +6,11 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import bs4
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema import HumanMessage
 
 # Streamlit 페이지 설정
-st.title("🤖  ChatBot with RAG")
-
+st.title("🤖 ChatBot with RAG")
 # 메시지 세션 초기화
 if "messages" not in st.session_state:
     st.session_state.messages = []
@@ -25,14 +26,14 @@ loader = WebBaseLoader(
     web_paths=(source_url,),
     bs_kwargs=dict(
         parse_only=bs4.SoupStrainer(
-            class_=("css-8lvslw")  # 필요한 HTML 클래스 이름으로 수정
+            class_=("css-38ws53")  # 필요한 HTML 클래스 이름으로 수정
         )
     ),
 )
 
 # 웹 문서 로드 및 텍스트 분할
 docs = loader.load()
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=200)
 splits = text_splitter.split_documents(docs)
 
 # 벡터스토어 생성
@@ -41,7 +42,7 @@ vectorstore = Chroma.from_documents(
     embedding=OpenAIEmbeddings(),
     persist_directory=".chroma_data"  # 데이터 저장 경로 지정
 )
-retriever = vectorstore.as_retriever()
+retriever = vectorstore.as_retriever(search_kwargs={"k":5})
 
 # 이전 메시지 출력
 for message in st.session_state.messages:
@@ -62,9 +63,13 @@ if prompt := st.chat_input("질문을 입력해주세요."):
             return "\n\n".join(doc.page_content for doc in docs)
 
         # RAG 프롬프트 로드
-        prompt_template = hub.pull("rlm/rag-prompt")
-        user_prompt = prompt_template.invoke({"context": format_docs(retrieved_docs), "question": prompt})
+        prompt_template = ChatPromptTemplate.from_messages([
+        HumanMessage(content="첨부한 문서들을 바탕으로 답변하되, 잘 모르는 정보라면 답하지 말아줘.\n"
+                             f"Question: {prompt}\nContext: {format_docs(retrieved_docs)}")
+        ])
 
+
+        user_prompt = prompt_template.invoke({"context": format_docs(retrieved_docs), "question": prompt})
         # 모델 응답 생성
         response = llm.invoke(user_prompt)
 
